@@ -1,0 +1,121 @@
+.sale {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sale-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.sale-photo-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sale-photo-list {}
+
+.sale-photo-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 20px;
+    width: 132px;
+    background-color: #f3f3f3;
+}
+
+.sale-container {
+    max-width: 335px;
+    max-height: 561px;
+    border-radius: 30px;
+    background-color: #3350e9;
+}
+
+.sale-name-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sale-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    text-align: left;
+}
+
+.sale-name-tag {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-price {
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.sale-old-price {}
+
+.sale-descr {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.sale-pros-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    border-color: transparent;
+    border-radius: 30px;
+    max-width: 335px;
+    /* max-height: 561px; */
+}
+
+.sale-list {}
+
+.sale-list-item {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 128px;
+    height: 32px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .sale-pros-box {
+        border-radius: 50px;
+        max-width: 704px;
+        /* max-height: 518px; */
+    }
+}
+
+@media screen and (min-width: 1168px) {
+    .sale-pros-box {
+        border-radius: 50px;
+        max-width: 530px;
+        /* max-height: 558px; */
+    }
+}
