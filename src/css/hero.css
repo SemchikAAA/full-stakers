@@ -11,21 +11,19 @@
 .hero-describe {}
 
 .hero-title {
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 40px;
     line-height: 95%;
     letter-spacing: -0.02em;
-    color: var(--main);
+    color: #0c0c0c;
     margin-bottom: 20px;
 }
 
 .highlight {
-    color: var(--accent);
+    color: #3350e9;
 }
 
 .hero-description {
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
@@ -42,19 +40,18 @@
 .team-avatars-img {}
 
 .scroll-down {
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.02em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: var(--main);
+    color: #0c0c0c;
 }
 
 .scroll-down:hover,
 .scroll-down:focus {
-    color: var(--accent);
+    color: #3350e9;
 }
 
 .hero-image {}
