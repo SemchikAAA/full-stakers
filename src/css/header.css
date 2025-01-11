@@ -166,10 +166,11 @@ border: 1px solid rgba(251, 251, 251, 0.1);
 fill: #fbfbfb;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 .header-mobile-menu {
         min-width: 320px;
     }
+
 .container-header-soc{
     display: flex;
     align-items: center;
@@ -177,16 +178,17 @@ fill: #fbfbfb;
 }
 }
 
-@media screen and (min-width: 1024px){
-    .header-mobile-menu{
-        display: none;
-    }
+@media screen and (min-width: 1280px){
 
     .header-burger{
-        display: none;
-    }
+    display: none;
+}
 
-    .header-mobile-menu-custom-desktop{
-        display: block;
-    }
+.header-mobile-menu{
+    display: block;
+}
+
+.header-mobile-menu-custom-desktop{
+    display: block;
+}
 }
