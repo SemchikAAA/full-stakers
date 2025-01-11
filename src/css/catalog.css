@@ -10,26 +10,33 @@
 }
 
 .catalog-item {
-    width: 335px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
+    background: #f3f3f3;
     width: 335px;
     height: 364px; 
 }
 
-.catalog-item:hover {
+.catalog-item:hover, .catalog-item:focus {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-/* .catalog-item .container {
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 30px;
-    width: 335px;
-    height: 364px; 
-} */
+.catalog-img {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-item .container {
+    padding: 24px 28px;
+}
 
 .catalog-watch-name {
+    width: 280px;
+    height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -46,10 +53,15 @@
     padding-top: 8px;
 }
 
+.catalog-list .catalog-item:nth-last-child(-n+2){
+    display: none;
+}
+
 .btn{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
 }
 
 .catalog-btn {
@@ -59,31 +71,52 @@
     border: none;
     background: #3350E9;
     color: #FBFBFB;  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.catalog-btn:hover, .catalog-btn:focus {
+    background: #1F3CD4;
 }
 
 @media screen and (min-width:768px){
     .catalog-list{
-        column-gap: 24px;
-        row-gap: 72px;
+        column-gap: 16px;
+        row-gap: 32px;
     }
-    
+
     .catalog-item {
-        width: 356px;
+        width: 344px;
+        height: 414px; 
+    }
+
+    .catalog-item .container {
+        padding: 24px 32px;
+    }
+
+    .catalog-watch-name {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .catalog-list .catalog-item:nth-last-child(-n+2){
+        display: flex;
+    }
+
+    .btn{
+        display: none;
     }
 }
 
-@media screen and (min-width:1400px){
-    .catalog {
-        padding-top: 120px;
-        padding-bottom: 120px;
+@media screen and (min-width:1280px){
+    .catalog-list{
+        column-gap: 23px;
     }
 
-    .catalog-list{
-        column-gap: 24px;
-        row-gap: 48px;
-    }
-    
     .catalog-item {
-        
+        width: 368px;
+    }
+
+    .catalog-watch-name {
+        width: 304px;
     }
 }
