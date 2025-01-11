@@ -1,3 +1,83 @@
 <section class="hero">
-  <div class="container"></div>
+  <div class="container hero-container">
+    <div class="hero-wrapper">
+      <div class="hero-describe">
+        <h1 class="hero-title">
+          Welcome to our <span class="highlight">collection</span> of premium
+          watches
+        </h1>
+        <p class="hero-description">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+      <!-- Вторая часть: Avatars -->
+      <div class="team-avatars">
+        <picture>
+          <source
+            srcset="
+              /src/img/hero/desktop/ellipse_desktop@1x.png 1x,
+              /src/img/hero/desktop/ellipse_desktop@2x.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              /src/img/hero/tablet/ellipse_tablet@1x.png 1x,
+              /src/img/hero/tablet/ellipse_tablet@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /src/img/hero/mobile/ellipse_mobile@1x.png 1x,
+              /src/img/hero/mobile/ellipse_mobile@2x.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/src/img/hero/desktop/ellipse_desktop@1x.png"
+            alt="black watch"
+            class="team-avatars-img"
+          />
+        </picture>
+      </div>
+    </div>
+    <!-- Scroll down -->
+    <div class="scroll-down">
+      <a href="#next-section" aria-label="Scroll down">Scroll down</a>
+    </div>
+    <!-- Третья часть: изображение -->
+    <div class="hero-image">
+      <picture>
+        <source
+          srcset="
+            /src/img/hero/desktop/rectangle_10_desktop@1x.jpg 1x,
+            /src/img/hero/desktop/rectangle_10_desktop@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            /src/img/hero/tablet/rectangle_10_tablet@1x.jpg 1x,
+            /src/img/hero/tablet/rectangle_10_tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /src/img/hero/mobile/rectangle_10_mobile@1x.jpg 1x,
+            /src/img/hero/mobile/rectangle_10_mobile@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/src/img/hero/desktop/rectangle_10_desktop@1x.jpg"
+          alt="black watch"
+          class="hero-image-img"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
