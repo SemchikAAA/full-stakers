@@ -1,73 +1,94 @@
+/* General Reset */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     margin: 0;
-}
-
-h1,h2,h3,h4,h5,h6,p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-a {
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  
+  a {
     text-decoration: none;
-}
-
-img {
+  }
+  
+  img {
     display: block;
+    max-width: 100%;
+  }
+  
+.about-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-
-.container {
+  /* Container */
+  .about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     max-width: 1280px;
+    margin: 0 auto;
+    padding-right: 60px;
     padding-left: 65px;
     padding-right: 65px;
-    margin: 0 auto;
-}
-
-.about-us-title {
-    font-family: var(--font-family);
+    gap: 40px;
+  }
+  
+  /* Text Section */
+  .about-us-text {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  .about-us-title {
     font-weight: 600;
     font-size: 48px;
-    line-height: 92%;
+    line-height: 1.2;
     letter-spacing: -0.02em;
-    color: var(--main);
-}
-
-.about-us-main-text1 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 125%;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    padding-bottom: 10px;
-}
-
-.about-us-main-text2 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 125%;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    padding-top: 10px;
-}
-
-.catalog-button {
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    background-color: #3350E9;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 38px;
-    padding-right: 37px;
+    color: #000000;
+    margin-bottom: 40px;
   }
-
+  
+  .about-us-main-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 20px;
+  }
+  
+  .catalog-button {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #3350E9;
+    border-radius: 16px;
+    padding: 15px 37px 15px 38px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .catalog-button:hover {
+    background-color: #2339B3;
+  }
+  
+  /* Image Section */
+  .about-us-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   .picture-about-us {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50px;
-    transform: translate(-50%, -50%);
-}
+    border: 1px solid #000;
+    border-radius: 50px;
+    background: rgba(12, 12, 12, 0.2), url("./img/about-us/about-us-img-desktop.jpg");
+  }
+  
