@@ -25,7 +25,7 @@ stroke-width: 2.50px;
 .header-mobile-menu{
 position: fixed;
 top: 0;
-max-width: 320px;
+max-width: 200px;
 height: 100%;
 background-color: #fff;
 
@@ -166,23 +166,15 @@ border: 1px solid rgba(251, 251, 251, 0.1);
 fill: #fbfbfb;
 }
 
+@media screen and (min-width: 320px) {
+
+}
+
 @media screen and (min-width: 768px) {
-.header-mobile-menu {
-        min-width: 320px;
-    }
 
-.container-header-soc{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 }
 
-@media screen and (min-width: 1280px){
-
-    .header-burger{
-    display: none;
-}
+@media screen and (min-width: 1280px) {
 
 
 }
