@@ -15,11 +15,8 @@
       <!-- Вторая часть: Avatars -->
       <div class="team-avatars">
         <img
-          srcset="
-            /src/img/hero/hero-people.png    1x,
-            /src/img/hero/hero-people-2x.png 2x
-          "
-          src="/src/img/hero/hero-people.png"
+          srcset="/img/hero/hero-people.png 1x, /img/hero/hero-people-2x.png 2x"
+          src="/img/hero/hero-people.png"
           alt="team avatars"
           class="team-avatars-img"
           loading="lazy"
@@ -35,30 +32,31 @@
       <picture>
         <source
           srcset="
-            /src/img/hero/hero-pic_mob@1x.jpg 1x,
-            /src/img/hero/hero-pic_mob@2x.jpg 2x
+            /img/hero/hero-pic_desk@1x.jpg 1x,
+            /img/hero/hero-pic_desk@2x.jpg 2x
           "
-          media="(max-width: 767px)"
+          media="(min-width: 1280px)"
           type="image/jpeg"
         />
         <source
           srcset="
-            /src/img/hero/hero-pic_tab@1x.jpg 1x,
-            /src/img/hero/hero-pic_tab@2x.jpg 2x
+            /img/hero/hero-pic_tab@1x.jpg 1x,
+            /img/hero/hero-pic_tab@2x.jpg 2x
           "
           media="(min-width: 768px)"
           type="image/jpeg"
         />
         <source
           srcset="
-            /src/img/hero/hero-pic_desk@1x.jpg 1x,
-            /src/img/hero/hero-pic_desk@2x.jpg 2x
+            /img/hero/hero-pic_mob@1x.jpg 1x,
+            /img/hero/hero-pic_mob@2x.jpg 2x
           "
-          media="(min-width: 1280px)"
+          media="(max-width: 767px)"
           type="image/jpeg"
         />
+
         <img
-          src="/src/img/hero/hero-pic_desk@1x.jpg"
+          src="/img/hero/hero-pic_desk@1x.jpg"
           alt="black watch"
           class="team-avatars-img"
           loading="lazy"
