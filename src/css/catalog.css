@@ -133,6 +133,11 @@ h2 {
 }
 
 @media screen and (min-width:768px){
+    .catalog {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
     .catalog-list{
         column-gap: 16px;
         row-gap: 32px;
@@ -162,6 +167,11 @@ h2 {
 }
 
 @media screen and (min-width:1280px){
+    .catalog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .catalog-list{
         column-gap: 23px;
     }
