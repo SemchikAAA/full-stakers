@@ -24,27 +24,10 @@
 @media only screen and (min-width: 768px) {
     .hero-wrapper {
         margin-bottom: 40px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .hero-wrapper {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .hero-describe {
         width: 557px;
         height: 260px;
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-    .hero-describe {
-        width: 597px;
-        height: 269px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
@@ -68,6 +51,8 @@
         font-size: 72px;
         line-height: 0.87;
         letter-spacing: -0.02em;
+        width: 597px;
+        height: 269px;
     }
 }
 
