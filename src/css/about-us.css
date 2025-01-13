@@ -11,12 +11,18 @@ body {
   }
   
   a {
+    color: currentColor;
     text-decoration: none;
   }
   
   img {
     display: block;
     max-width: 100%;
+  }
+
+  button {
+    cursor: pointer;
+    font-family: inherit;
   }
 /* #endregion */
 
@@ -103,6 +109,8 @@ body {
     padding: 0 32px;
     flex-direction: column; 
     gap: 75px; 
+    padding-bottom: 40x;
+    padding-top: 40px;
   }
 
   .about-us-text, 
@@ -119,10 +127,33 @@ body {
 /* #endregion */
 
 /* #region mobile */
-@media (max-width: 480px) {
-  body {
-      font-size: 14px;
-      line-height: 129%;
+@media (max-width: 375px) {
+  .about-us-container {
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+    flex-direction: column; 
+    gap: 20px; 
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .about-us-text, 
+  .about-us-image {
+    width: 100%; 
+  }
+
+  .about-us-text {
+    min-width: 335px;
+    min-height: 446px;
+  }
+
+  .picture-about-us {
+    border-radius: 30px;
+    width: 335px;
+    height: 446px;
+    background: rgba(12, 12, 12, 0.2), url("../img/about-us/about-us-img-mobile.jpg");
   }
 }
 /* #endregion */
