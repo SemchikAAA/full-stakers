@@ -9,7 +9,12 @@
     </div>
     <!-- Image Section -->
     <div class="about-us-image">
-      <img class="picture-about-us" src="./img/about-us/about-us-img-desktop.jpg" width="530" height="532" alt="Our Premium Watch">
+      <picture>
+        <!-- Tablet version -->
+        <source srcset="../img/about-us/about-us-img-tablet.jpg" media="(max-width: 768px)">
+        <!-- Desktop version (default) -->
+        <img class="picture-about-us" src="./img/about-us/about-us-img-desktop.jpg" width="530" height="532" alt="Our Premium Watch">
+      </picture>
     </div>
   </div>
 </section>
