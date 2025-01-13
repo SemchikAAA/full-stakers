@@ -1,0 +1,163 @@
+/* #Reviews*/
+.reviews {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0px 20px;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+
+.reviews-title {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    padding-top: 0;
+    padding-bottom: 24px;
+    width: 114px;
+    height: 32px;
+    padding-left: 20px;
+}
+
+.reviews-card {}
+
+.review-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    width: 263px;
+    height: 198px;
+}
+
+.reviews-list {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr;
+    width: 320px;
+    height: 262px;
+
+
+}
+
+.reviews-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 100%;
+    height: auto;
+    background: #f3f3f3;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hidden-on-mobile {
+    display: none;
+}
+
+.hidden-on-tablet {
+    display: none;
+}
+
+.reviews-image {
+    border-radius: 100%;
+    stroke-width: 2px;
+    stroke: #fbfbfb;
+    margin: 0 auto;
+}
+
+.reviews-container-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 263px;
+    height: 118px;
+}
+
+.reviews-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+.reviews-link-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+
+    .reviews-title {
+        font-size: 48px;
+        line-height: 0.92;
+
+    }
+
+    .reviews-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .hidden-on-mobile {
+        display: block;
+    }
+
+    .hidden-on-tablet {
+        display: none;
+    }
+
+    .reviews-container-link {
+        width: 272px;
+        height: 128px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .reviews {
+        margin-left: 20px;
+    }
+
+    .reviews-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+    }
+
+    .hidden-on-mobile,
+    .hidden-on-tablet {
+        display: block;
+    }
+
+    .reviews-item {
+        width: 100%;
+    }
+
+    .reviews-container-link {
+        width: 298px;
+        height: 128px;
+    }
+}
+
+/* #Reviews  */
