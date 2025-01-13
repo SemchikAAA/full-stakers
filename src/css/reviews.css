@@ -110,8 +110,8 @@
 
 @media screen and (min-width: 768px) {
     .section-reviews {
-    width: 704px;
-    height: 356px;
+    width: 100%;
+    height: auto;
     }
 
     .reviews-title {
@@ -148,8 +148,8 @@
 @media screen and (min-width: 1280px) {
     .section-reviews {
     padding: 0px 65px;
-    width: 1280px;
-    height: 356px;
+    width: 100%;
+    height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     }
