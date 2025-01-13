@@ -87,6 +87,7 @@
     gap: 8px;
     width: 263px;
     height: 118px;
+    padding-top: 24px;
 }
 
 .reviews-link {
@@ -99,12 +100,14 @@
 }
 
 .reviews-link-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.23;
     letter-spacing: -0.02em;
     text-align: center;
-    color: #0c0c0c;
+    color: rgba(12, 12, 12, 0.4);
+    font-family: "Gilroy", sans-serif;
+    padding-top: 8px;
 }
 
 @media screen and (min-width: 768px) {
