@@ -1,25 +1,38 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .advertisement {
     background-color: #0c0c0c;
     background-image: linear-gradient(to bottom,
-            rgba(12, 12, 12, 0.8),
-            rgba(12, 12, 12, 0.8)), url(../img/advertisment/advertisement-img-mobile.jpg);
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
     max-width: 335px;
     height: 363px;
-    margin: 0 auto;
+    margin: 60px auto;
     background-size: cover;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.8),
-                rgba(12, 12, 12, 0.8)), url(../img/advertisment/advertisement-img-mobile@2x.jpg);
+    .advertisement {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-mobile@2x.jpg);
     }}
 .ad-cont{
     padding-top: 60px;
+    padding-left: 28px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -33,10 +46,8 @@
         line-height: 1;
         letter-spacing: -0.02em;
         color: #fbfbfb;
-        margin-bottom: 32px;
-        align-items: center;
-        justify-content: center;
-}
+        margin-bottom: 32px;}
+
 .adver-ps {
     color: rgba(251, 251, 251, 0.5);
 }
@@ -58,27 +69,32 @@
     .advertisement {
             background-color: #0c0c0c;
             background-image: linear-gradient(to bottom,
-                    rgba(12, 12, 12, 0.8),
-                    rgba(12, 12, 12, 0.8)), url(../img/advertisment/advertisement-img-tablet.jpg);
+                    rgba(0, 0, 0, 0.8),
+                    rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-tablet.jpg);
             background-repeat: no-repeat;
             background-position: center;
             border-radius: 30px;
             max-width: 704px;
             height: 425px;
-            margin: 0 auto;
+            margin: 40px auto;
             background-size: cover;
         }
     
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .hero {
-                background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.8),
-                        rgba(12, 12, 12, 0.8)), url(../img/advertisment/advertisement-img-tablet@2x.jpg);
+    .advertisement {
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
+                        rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-tablet@2x.jpg);
             }
         }
+    .ad-cont {
+            padding-top: 80px;
+            padding-left: 64px;}
+
     .adver-p {
             width: 576px;
+            height: 185px;
             font-weight: 600;
             font-size: 48px;
             line-height: 0.91;
@@ -89,23 +105,23 @@
      .advertisement {
          background-color: #0c0c0c;
          background-image: linear-gradient(to bottom,
-                 rgba(12, 12, 12, 0.8),
-                 rgba(12, 12, 12, 0.8)), url(../img/advertisment/advertisement-img-desktop.jpg);
+                 rgba(0, 0, 0, 0.8),
+                 rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-desktop.jpg);
          background-repeat: no-repeat;
          background-position: center;
          border-radius: 30px;
          max-width: 1150px;
          height: 298px;
-         margin: 0 auto;
+         margin: 50px auto;
          background-size: cover;
      }
 
      @media (min-device-pixel-ratio: 2),
      (min-resolution: 192dpi),
      (min-resolution: 2dppx) {
-         .hero {
-             background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.8),
-                     rgba(12, 12, 12, 0.8)), url(../img/advertisment/advertisement-img-desktop@2x.jpg);
+         .advertisement {
+             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
+                     rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-desktop@2x.jpg);
          }
      }
         .adver-p {
@@ -115,10 +131,10 @@
             line-height: 0.91;
             letter-spacing: -0.02em;
         }
-                .ad-cont {
-                    padding-top: 83px;
-                    flex-direction: row;
-                    justify-content: space-between;
-        
+        .ad-cont {
+            padding-top: 83px;
+            padding-left: 80px;
+            flex-direction: row;
+            justify-content: space-between;
                 }
     }
