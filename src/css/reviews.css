@@ -1,9 +1,9 @@
 /* #Reviews*/
-
-.container {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.reviews {
+ padding-top: 30px;
+padding-bottom: 30px;
 }
+
 .reviews-title {
     font-weight: 600;
     font-size: 32px;
@@ -92,10 +92,10 @@
 
 @media screen and (min-width: 768px) {
   
-.container {
-padding-top: 40px;
+    .reviews {
+    padding-top: 40px;
     padding-bottom: 40px;
-}
+    }
     .reviews-title {
     font-size: 48px;
     line-height: 0.92;
@@ -126,13 +126,9 @@ padding-top: 40px;
 }
 @media screen and (min-width: 1280px) {
     .reviews {
-    
-    }
-    .container{
-    padding: 0px 65px;
     padding-top: 50px;
     padding-bottom: 50px;
-    }
+        }
     .reviews-title {
     
     }
