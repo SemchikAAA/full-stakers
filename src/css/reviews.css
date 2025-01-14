@@ -5,7 +5,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
-    padding: 0px 20px;
+    min-width: 375px;
     width: 100%;
     height: auto;
     padding-top: 30px;
@@ -22,6 +22,7 @@
     padding-bottom: 24px;
     width: 114px;
     height: 32px;
+    padding-left: 20px;
 }
 
 .reviews-card {
@@ -41,16 +42,15 @@
     display: grid;
     gap: 16px;
     grid-template-columns: 1fr;
-    width: 320px;
-    height: 262px;
-    padding-left: 20px;
-   padding-right: 20px;
+    width: 100%;
+    height: auto;
+    
 }
 
 .reviews-item {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     border-radius: 30px;
     padding: 32px 36px;
@@ -76,7 +76,7 @@
     margin: 0 auto;
 }
 
-.reviews-container-link {
+.reviews-link-text {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -110,13 +110,13 @@
 
 @media screen and (min-width: 768px) {
     .section-reviews {
-    width: 100%;
-    height: auto;
-    }
+    padding-top: 40px;
+    padding-bottom: 40px;}
 
     .reviews-title {
     font-size: 48px;
     line-height: 0.92;
+    padding-left: 32px;
     }
 
     .reviews-card {
@@ -129,6 +129,7 @@
     .reviews-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;  
+
     }
 
     .hidden-on-mobile {
@@ -139,7 +140,7 @@
     display: none;
     }
 
-    .reviews-container-link {
+    .reviews-link-text {
     width: 272px;
     height: 128px;
     }
@@ -148,12 +149,12 @@
 @media screen and (min-width: 1280px) {
     .section-reviews {
     padding: 0px 65px;
-    width: 100%;
-    height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     }
-
+    .reviews-title {
+    padding-left: 60px;
+    }
     .reviews-card {
     padding-left: 65px;
     padding-right: 65px;
@@ -174,7 +175,7 @@
     width: 100%;
     }
 
-    .reviews-container-link {
+    .reviews-link-text {
     width: 298px;
     height: 128px;
     }
