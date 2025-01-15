@@ -20,7 +20,8 @@
     border-radius: 30px;
     max-width: 335px;
     height: 363px;
-    margin: 60px auto;
+   padding-top: 30px;
+  pading-bottom: 30px;
     background-size: cover;
 }
 @media (min-device-pixel-ratio: 2),
