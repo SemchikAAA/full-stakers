@@ -182,6 +182,12 @@ z-index: 101;
         flex-grow: 1;
 }
 
+.header-soc-list-modal{
+display: flex;
+gap: 10px;
+z-index: 101;
+}
+
 @media screen and (min-width: 768px) {
     .header-burger{
     display: block;
@@ -217,7 +223,7 @@ height: 40px;
     padding-bottom: 50px;
 }
 
-.header-menu-list{
+.backdrop.is-open .header-menu-list{
     gap: 32px;
 }
 
