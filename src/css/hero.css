@@ -10,7 +10,7 @@
 }
 
 .hero-describe {
-    width: 335px;
+    max-width: 335px;
     margin-bottom: 28px;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .avatar-btn-wrapper {
-    width: 335px;
+    max-width: 335px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -78,13 +78,13 @@ width: 335px;
 
     .hero-wrapper {
     margin-bottom: 40px;
-    width: 704px;
+    max-width: 704px;
     flex-direction: row;
     justify-content: space-between;
     }
 
     .hero-describe {
-    width: 557px;
+    max-width: 557px;
     margin-bottom: 0;
     }
 
@@ -126,11 +126,11 @@ width: 335px;
     }
 
     .hero-wrapper {
-    width: 1150px;
+    max-width: 1150px;
     }
     
     .hero-describe {
-    width: 597px;
+    max-width: 597px;
     margin-bottom: 0;
     }
     
