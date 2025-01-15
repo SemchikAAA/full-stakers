@@ -22,6 +22,7 @@
     height: 363px;
    margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 20px;
     background-size: cover;
 }
 @media (min-device-pixel-ratio: 2),
