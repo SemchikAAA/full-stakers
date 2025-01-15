@@ -87,9 +87,7 @@ padding-bottom: 40px;
 }
 
 .header-soc-list {
-    display: flex;
-    gap: 10px;
-    z-index: 102;
+    display: none;
 }
 
 .header-soc-items {
@@ -189,6 +187,11 @@ z-index: 101;
     display: block;
     }
 
+    .header-burger-btn-menu{
+width: 40px;
+height: 40px;
+    }
+
     .backdrop {
         min-width: 330px;
     }
@@ -206,15 +209,12 @@ z-index: 101;
 .header-btn-close-menu {
     stroke-width: 2.50px;
     stroke: #fbfbfb;
+    width: 40px;
+    height: 40px;
 }
 
 .container-header-soc-modal {
     padding-bottom: 50px;
-}
-
-.header-soc-list {
-    display: flex;
-    z-index: 102;
 }
 
 .header-soc-items {
