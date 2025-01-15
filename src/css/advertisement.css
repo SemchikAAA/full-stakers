@@ -20,8 +20,8 @@
     border-radius: 30px;
     max-width: 335px;
     height: 363px;
-   padding-top: 30px;
-  padding-bottom: 30px;
+   margin-top: 30px;
+  margin-bottom: 30px;
     background-size: cover;
 }
 @media (min-device-pixel-ratio: 2),
@@ -33,6 +33,7 @@
     }}
 .ad-cont{
     padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 28px;
     display: flex;
     flex-direction: column;
