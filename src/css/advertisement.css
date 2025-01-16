@@ -96,7 +96,7 @@
         }
     .ad-cont {
             padding-top: 80px;
-            padding-left: 64px;}
+            padding-left: 32px;}
 
     .adver-p {
             width: 576px;
@@ -139,7 +139,7 @@
         }
         .ad-cont {
             padding-top: 83px;
-            padding-left: 80px;
+            padding-left: 48px;
             flex-direction: row;
             justify-content: space-between;
                 }
