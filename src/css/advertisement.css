@@ -20,9 +20,7 @@
     border-radius: 30px;
     max-width: 335px;
     height: 363px;
-   margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px;
+    margin: 30px auto;
     background-size: cover;
 }
 @media (min-device-pixel-ratio: 2),
@@ -34,8 +32,7 @@
     }}
 .ad-cont{
     padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 28px;
+    padding-bottom: 60px;   
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -99,7 +96,7 @@
         }
     .ad-cont {
             padding-top: 80px;
-            padding-left: 64px;}
+            padding-left: 32px;}
 
     .adver-p {
             width: 576px;
@@ -142,7 +139,7 @@
         }
         .ad-cont {
             padding-top: 83px;
-            padding-left: 80px;
+            padding-left: 48px;
             flex-direction: row;
             justify-content: space-between;
                 }
