@@ -18,10 +18,11 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
-    max-width: 335px;
+    width: 335px;
     height: 363px;
     margin: 30px auto;
     background-size: cover;
+    
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -39,7 +40,6 @@
 
 }
 .adver-p{
-        width: 279px;
         font-family: "Gilroy", sans-serif;
         font-weight: 600;
         font-size: 32px;
@@ -80,7 +80,7 @@
             background-repeat: no-repeat;
             background-position: center;
             border-radius: 30px;
-            max-width: 704px;
+            width: 704px;
             height: 425px;
             margin: 40px auto;
             background-size: cover;
@@ -116,7 +116,7 @@
          background-repeat: no-repeat;
          background-position: center;
          border-radius: 30px;
-         max-width: 1150px;
+         width: 1150px;
          height: 298px;
          margin: 50px auto;
          background-size: cover;
