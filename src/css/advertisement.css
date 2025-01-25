@@ -18,129 +18,143 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
-    width: 335px;
     height: 363px;
     margin: 30px auto;
-    background-size: cover;
-    
+    padding: 0;
+    background-size: cover;    
 }
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .advertisement {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
-                rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-mobile@2x.jpg);
-    }}
-.ad-cont{
-    padding-top: 60px;
-    padding-bottom: 60px;   
+
+.advertisement .container {
+    padding: 60px 28px;
+}
+
+.ad-cont{ 
     display: flex;
     flex-direction: column;
     align-items: start;
-
 }
+
 .adver-p{
-        font-family: "Gilroy", sans-serif;
         font-weight: 600;
         font-size: 32px;
         line-height: 1;
         letter-spacing: -0.02em;
         color: #fbfbfb;
-        margin-bottom: 32px;}
+        margin-bottom: 32px;
+}
 
 .adver-ps {
     color: rgba(251, 251, 251, 0.5);
 }
+
 .adver-but {
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
     width: 160px;
     height: 48px;
-    display: block;
-  padding-top: 15px;
-    font-family: "Gilroy", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.28571;
-        text-align: center;
-        color: #fbfbfb;
-        background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.28571;
+    color: #fbfbfb;
+    background-color: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+}
+
 .adver-but:hover, .adver-but:focus {
   background-color: #fbfbfb;
   color: #0c0c0c;
 }
- @media screen and (min-width: 768px) {
+
+@media screen and (min-width:320px) and (max-width:374.99px){
     .advertisement {
-            background-color: #0c0c0c;
-            background-image: linear-gradient(to bottom,
-                    rgba(0, 0, 0, 0.8),
-                    rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-tablet.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            border-radius: 30px;
-            width: 704px;
-            height: 425px;
-            margin: 40px auto;
-            background-size: cover;
-        }
-    
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-    .advertisement {
-                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
-                        rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-tablet@2x.jpg);
-            }
-        }
-    .ad-cont {
-            padding-top: 80px;
-            padding-left: 32px;}
+        min-width: 280px;
+        margin: 30px 20px;
+    }
+
+    .container {
+        min-width: 280px;
+    }
 
     .adver-p {
-            width: 576px;
-            height: 185px;
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 0.91;
-            letter-spacing: -0.02em;
+        min-width: 224px;
+    }
+}
+
+@media screen and (min-width:375px) {
+    .advertisement {
+        width: 335px;
+    }
+}
+
+@media (min-resolution: 192dpi) {
+    .advertisement {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-mobile@2x.jpg);
+    }
+}
+
+ @media screen and (min-width: 768px) {
+    .advertisement {
+        background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-tablet.jpg);
+        width: 704px;
+        height: 425px;
+        margin: 40px auto;
         }
+    
+    @media (min-resolution: 192dpi){
+    .advertisement {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-tablet@2x.jpg);
+            }
+    }
+
+    .advertisement .container {
+        padding: 80px 64px;
+    }
+
+    .adver-p {
+        width: 576px;
+        height: 185px;
+        font-size: 48px;
+        line-height: 0.91;
+    }
  }
+
+
  @media screen and (min-width: 1280px) {
      .advertisement {
-         background-color: #0c0c0c;
          background-image: linear-gradient(to bottom,
                  rgba(0, 0, 0, 0.8),
                  rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-desktop.jpg);
-         background-repeat: no-repeat;
-         background-position: center;
-         border-radius: 30px;
          width: 1150px;
          height: 298px;
          margin: 50px auto;
-         background-size: cover;
      }
 
-     @media (min-device-pixel-ratio: 2),
-     (min-resolution: 192dpi),
-     (min-resolution: 2dppx) {
+     @media (min-resolution: 192dpi) {
          .advertisement {
-             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
-                     rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-desktop@2x.jpg);
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0.8)), url(../img/advertisment/advertisement-img-desktop@2x.jpg);
          }
      }
-        .adver-p {
-            width: 690px;
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 0.91;
-            letter-spacing: -0.02em;
-        }
-        .ad-cont {
-            padding-top: 83px;
-            padding-left: 48px;
-            flex-direction: row;
-            justify-content: space-between;
-                }
+
+    
+    .advertisement .container {
+        padding: 83px 80px;
     }
+
+    .ad-cont {
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+    
+    .adver-p {
+        width: 690px;
+        margin-bottom: 0;
+        height: 132px;
+    }
+}
