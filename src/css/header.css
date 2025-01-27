@@ -232,6 +232,9 @@ height: 40px;
     padding: 8px;
     width: 36px;
     height: 36px;
+    transition: right 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-soc-header {
