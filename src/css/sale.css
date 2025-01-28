@@ -12,6 +12,10 @@
     margin-bottom: 24px;
 }
 
+.sale-box {
+max-width: 335px;
+}
+
 .sale-photo-box {
     display: flex;
     align-items: center;
@@ -19,6 +23,7 @@
     flex-direction: column;
     gap: 20px;
     margin-bottom: 20px;
+    max-width: 335px;
 }
 
 .sale-photo-list {
@@ -52,6 +57,11 @@
     width: 335px;
     height: 385px;
     background-color: #f3f3f3;
+}
+
+.big-watch-image {
+    width: 235px;
+    height: 285px;
 }
 
 .sale-container {
@@ -162,9 +172,14 @@
     margin-bottom: 40px;
     }
 
+    .sale-box {
+    max-width: 704px;
+    }
+
 .sale-photo-box {
     flex-direction: row;
     margin-bottom: 40px;
+    max-width: 704px;
 }
 
     .sale-photo-list {
@@ -230,12 +245,13 @@ max-width: 1150px;
 
 .sale-photo-box {
 margin-bottom: 0;
+max-width: 580px;
 }
 
 .big-watch-box {
 border-radius: 50px;
 width: 428px;
- height: 558px;
+height: 558px;
 }
 
 .sale-container {
