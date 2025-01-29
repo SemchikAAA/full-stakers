@@ -23,7 +23,7 @@ max-width: 335px;
     flex-direction: column;
     gap: 20px;
     margin-bottom: 20px;
-    max-width: 335px;
+    width: 335px;
 }
 
 .sale-photo-list {
@@ -44,7 +44,8 @@ max-width: 335px;
 }
 
 .sale-photo-image {
-    width: 52px;
+    /* width: 52px; */
+    width: 100%;
     height: 54px;
 }
 
