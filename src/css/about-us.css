@@ -1,0 +1,139 @@
+/* #region base styles for mobile */
+.about-us {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.about-us-text {
+  background-color: #F3F3F3;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.about-us-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about-us-main-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 15px;
+}
+
+.catalog-button {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #3350E9;
+  border-radius: 12px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.catalog-button:hover {
+  background-color: #1F3CD4;  
+}
+
+.about-us-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-about-us {
+  border-radius: 16px;
+  width: 335px;
+  height: 446px;
+}
+/* #endregion */
+
+
+/* #region styles for tablet and other */
+@media (min-width: 768px) {
+  .about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 32px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .about-us-text {
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  .about-us-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .about-us-main-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .picture-about-us {
+    border-radius: 20px;
+    width: 704px;
+    height: 512px;
+  }
+}
+/* #endregion */
+
+/* #region styles for desktop */
+@media (min-width: 1280px) {
+  .about-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-us-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    gap: 40px;
+    padding: 0 65px;
+    margin: 0 auto;
+  }
+
+  .about-us-text {
+    flex: 1;
+    padding: 40px;
+  }
+
+  .about-us-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  .picture-about-us {
+    border-radius: 50px;
+    width: 530px;
+    height: 532px;
+  }
+}
+
+/* #endregion */
